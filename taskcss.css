@@ -1,0 +1,50 @@
+body {
+    background-image: url(laptop.jpg);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 10px solid; 
+    border-image: linear-gradient(45deg, #007bff, #28a745) 1; /* Blue to green gradient border */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow for attractiveness */
+    width: 500px;
+    text-align: center;
+}
+
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd; /* Light gray border by default */
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(45deg, #007bff, #0056b3); /* Gradient button */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #0056b3, #004085); /* Darker on hover */
+}
